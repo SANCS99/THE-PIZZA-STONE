@@ -5,7 +5,7 @@ const[quantity, setquantity]=useState(1)
 const[varient, setvarient]=useState('small')
 
     return(
-        <div style={{margin:"100px"}}className="shadow-lg p-3 mb-5 bg-white rounded">
+        <div style={{margin:"50px"}}className="shadow-lg p-3 mb-5 bg-white rounded">
             <h4>{pizza.name}</h4>
             <img src={pizza.image} className="img-fluid" style={{height:'200px' , width:'200px'}}/>
 
