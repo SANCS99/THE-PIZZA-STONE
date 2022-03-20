@@ -29,3 +29,13 @@ h1{
 .flix-container{
   display: flex !important;
 }
+
+.btn{
+  background-color:red !important;
+  color:white !important;
+}
+
+select{
+  box-shadow: none !important;
+  border-color: black !important;
+}
