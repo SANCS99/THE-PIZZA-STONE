@@ -11,9 +11,9 @@ function App() {
     <div className="App">
       <Navbar/>
 
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Route path='/admin' component={Adminscreen}/>
-      </BrowserRouter>
+      </BrowserRouter> */}
       
       <Homescreen/>
     </div>
